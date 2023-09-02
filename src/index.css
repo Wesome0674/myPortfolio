@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Shadows+Into+Light&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.linkAnimation::before{
+   content: '';
+   position: absolute;
+   background-color: #8a4d76;
+   width: 100%;
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   display: none;
+}
+
+.linkAnimation:hover::before{
+  display: block;
+  animation: slidein 250ms linear;
+}
+
+.linkAnimation{
+  position: relative;
+}
+
+@keyframes slidein {
+  from  {
+    width: 0%;
+  }
+  to  {
+    width: 100%;
+  }
+}
+
+.headings{
+  position: relative;
+}
+
+.headings::before{
+  content: '<Home>';
+  position: absolute;
+  font-family: 'Sedgwick Ave Display';
+  color: #8a4d76;
+  top: -30px;
+  left: -30px;
+}
+
+.headings::after{
+  content: '</Home>';
+  font-family: 'Sedgwick Ave Display';
+  position: absolute;
+  color: #8a4d76;
+  bottom: -30px;
+  left: -30px;
+}
+
+.shape {
+  border-radius: 59% 17% 53% 15% / 48% 18% 46% 31%;
+  background-image: url('./img/me.jpg');
+  background-size: cover;
+}
+
+.headings2{
+  position: relative;
+}
+
+.headings2::before{
+  content: '<About>';
+  position: absolute;
+  font-family: 'Sedgwick Ave Display';
+  color: #8a4d76;
+  top: -30px;
+  left: -30px;
+}
+
+.headings2::after{
+  content: '</About>';
+  font-family: 'Sedgwick Ave Display';
+  position: absolute;
+  color: #8a4d76;
+  bottom: -30px;
+  left: -30px;
+}
+
+.headings3{
+  position: relative;
+}
+
+.headings3::before{
+  content: '<Skills>';
+  position: absolute;
+  font-family: 'Sedgwick Ave Display';
+  color: #8a4d76;
+  top: -30px;
+  left: -30px;
+}
+
+.headings3::after{
+  content: '</Skills>';
+  font-family: 'Sedgwick Ave Display';
+  position: absolute;
+  color: #8a4d76;
+  bottom: -30px;
+  left: -30px;
+}
+
+.headingsBox{
+  position: relative;
+}
+
+.headingsBox::before{
+  content: '<h1>';
+  position: absolute;
+  font-family: 'Sedgwick Ave Display';
+  color: #8a4d76;
+  top: -20px;
+  left: -20px;
+}
+
+.headingsBox::after{
+  content: '</h1>';
+  font-family: 'Sedgwick Ave Display';
+  position: absolute;
+  color: #8a4d76;
+  bottom: -20px;
+  left: -20px;
+}
+
+.headings4{
+  position: relative;
+}
+
+.headings4::before{
+  content: '<Work>';
+  position: absolute;
+  font-family: 'Sedgwick Ave Display';
+  color: #8a4d76;
+  top: -30px;
+  left: -30px;
+}
+
+.headings4::after{
+  content: '</Work>';
+  font-family: 'Sedgwick Ave Display';
+  position: absolute;
+  color: #8a4d76;
+  bottom: -30px;
+  left: -30px;
+}
+
+.headings5{
+  position: relative;
+}
+
+.headings5::before{
+  content: '<Contact>';
+  position: absolute;
+  font-family: 'Sedgwick Ave Display';
+  color: #8a4d76;
+  top: -30px;
+  left: -30px;
+}
+
+.headings5::after{
+  content: '</Contact>';
+  font-family: 'Sedgwick Ave Display';
+  position: absolute;
+  color: #8a4d76;
+  bottom: -30px;
+  left: -30px;
+}
