@@ -18,6 +18,9 @@ module.exports = {
         lightText: "#202023",
         lightBg: "rgba(255, 255, 255, 0.5)",
         button: "#8a4d76"
+      },
+      screens:{
+        'xsm': '300px'
       }
     },
   },

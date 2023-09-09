@@ -14,12 +14,12 @@ const Work = () => {
       }, [])
 
   return (
-    <div name="work"  className='max-w-[1640px]  mx-auto p-8 px-10 sm:h-screen my-16 flex items-center  '>
+    <div name="work"  className='max-w-[1640px]  mx-auto p-8 px-10 xl:h-screen my-16 flex items-center  '>
         <div className='border-l-2 w-full  border-button pl-[50px] md:pl-[150px] headings4'>
             <div className='text-center my-20'>
                 <h1 className='font-title  underline md:text-5xl text-3xl'>My latest projects</h1>
             </div> 
-                <div className='grid md:grid-cols-3 grid-cols-1 gap-6'>
+                <div className='grid lg:grid-cols-3 grid-cols-1 gap-6'>
                     <section data-aos="fade-up" className='border-2 border-button rounded-lg'>
                         <img className='rounded' src={weatherapp} alt="" />
                         <div className='p-4'>

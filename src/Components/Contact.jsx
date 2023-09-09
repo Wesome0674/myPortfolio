@@ -45,7 +45,7 @@ const Contact = () => {
     };
   
   return (
-        <div name="contact"  className='max-w-[1640px]  mx-auto p-8 px-10 md:h-screen flex items-center'>
+        <div name="contact"  className='max-w-[1640px]  mx-auto p-8 px-10 xl:h-screen flex items-center'>
             <div className='border-l-2 w-full  border-button pl-[50px] md:pl-[150px] headings5'>
                 <div className='text-center my-20'>
                     <h1 className='font-title  underline md:text-5xl text-3xl'>Contact me here !</h1>

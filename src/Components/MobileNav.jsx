@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { CgClose } from 'react-icons/cg'
 import { Link } from 'react-scroll'
 import { themecontext } from '../userContext'

@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 const Home = () => {
   return (
     <div name="home" className='max-w-[1640px]  mx-auto p-8 px-10 xl:h-screen mt-16 flex items-center'>
-            <div className='flex flex-wrap border-l-2 w-full  md:mt-[100px] justify-between mt-12 border-button sm:pl-[100px] pl-[50px]    md:pl-[200px] headings'>
+            <div className='flex flex-wrap border-l-2 w-full  justify-between mt-12 border-button sm:pl-[100px] pl-[50px]  md:pl-[200px] headings'>
                 <div>
                     <div>
                         <h1 className='font-title lg:text-8xl md:text-7xl sm:text-5xl text-4xl'>Front end</h1>
@@ -17,9 +17,11 @@ const Home = () => {
                                 View Work
                             </button>
                         </Link>
-                        <button className='border-2 border-button  text-[10px] md:text-base  p-4 rounded hover:bg-button duration-200 hover:text-darkBg'>
-                            Hire me !
-                        </button>
+                        <a href="https://fr.fiverr.com/killianbld168?public_mode=true">
+                            <button className='border-2 border-button  text-[10px] md:text-base  p-4 rounded hover:bg-button duration-200 hover:text-darkBg'>
+                                Hire me !
+                            </button>
+                        </a>
                     </div>
                     <div className='flex items-center flex-col'>
                         <h2 className='border-b-[1px] w-full text-center my-6 py-2 sm:text-base text-sm'>Social Media</h2>
