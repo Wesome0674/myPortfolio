@@ -32,8 +32,8 @@ const Work = () => {
                                 </div>
                             </div>
                             <div className='flex flex-wrap gap-4 mt-4'>
-                                <button className='border-button border-2 py-1 px-2 text-sm rounded-full hover:text-darkText hover:bg-button'>Code</button>
-                                <button className='border-button border-2 py-1 px-2 text-sm rounded-full hover:text-darkText hover:bg-button'>Site</button>
+                                <a href="https://github.com/Wesome0674/The.Weather"><button className='border-button border-2 py-1 px-2 text-sm rounded-full hover:text-darkText hover:bg-button'>Code</button></a>
+                                <a href="https://wesome0674.github.io/The.Weather/"><button className='border-button border-2 py-1 px-2 text-sm rounded-full hover:text-darkText hover:bg-button'>Site</button></a>
                             </div>
                         </div>
                     </section>
@@ -50,8 +50,8 @@ const Work = () => {
                                     </div>
                                 </div>
                                 <div className='flex flex-wrap gap-4 mt-4'>
-                                    <button className='border-button border-2 py-1 px-2 text-sm rounded-full hover:text-darkText hover:bg-button'>Code</button>
-                                    <button className='border-button border-2 py-1 px-2 text-sm rounded-full hover:text-darkText hover:bg-button'>Site</button>
+                                    <a href="https://github.com/Wesome0674/YankeeBites"><button className='border-button border-2 py-1 px-2 text-sm rounded-full hover:text-darkText hover:bg-button'>Code</button></a>
+                                    <a href="https://wesome0674.github.io/YankeeBites/"><button className='border-button border-2 py-1 px-2 text-sm rounded-full hover:text-darkText hover:bg-button'>Site</button></a>
                                 </div>
                         </div>
                        
@@ -70,8 +70,8 @@ const Work = () => {
                                     </div>
                                 </div>
                                 <div className='flex flex-wrap gap-4 mt-4'>
-                                    <button className='border-button border-2 py-1 px-2 text-sm rounded-full hover:text-darkText hover:bg-button'>Code</button>
-                                    <button className='border-button border-2 py-1 px-2 text-sm rounded-full hover:text-darkText hover:bg-button'>Site</button>
+                                    <a href="https://github.com/Wesome0674/swiftchat"><button className='border-button border-2 py-1 px-2 text-sm rounded-full hover:text-darkText hover:bg-button'>Code</button></a>
+                                    <a href="https://Wesome0674.github.io/swiftchat"><button className='border-button border-2 py-1 px-2 text-sm rounded-full hover:text-darkText hover:bg-button'>Site</button></a>
                                 </div>
                         </div>
                     </section>
